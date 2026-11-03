@@ -24,18 +24,18 @@ const ExerciseOne = () => {
         Clear Input
       </button>
       <input />
-      <input />
-      <input />
-      <input />
     </div>
   );
 };
-
+const ExerciseTwo = () => {
+  return <div>Exercise 2</div>;
+};
 function UseRefHook() {
   return (
     <div>
       <h2>useRef Hook Exercises</h2>
       <ExerciseOne />
+      <ExerciseTwo />
       <Header />
     </div>
   );
